@@ -1,4 +1,3 @@
-require 'pry'
 class Application
 
 
@@ -6,7 +5,6 @@ class Application
       resp = Rack::Response.new
       resp.write "Morning"
       resp.finish
-      binding.pry
     end
 
 
